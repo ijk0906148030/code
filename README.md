@@ -11,8 +11,8 @@
 - **建立playstyle圖檔.ipynb**: 將Playstyle訓練、測試資料轉換為自創圖像.
 - **建立Public.ipynb**: 使用模型進行預測.
 - **建立Private.ipynb**: 使用模型進行預測.
-- **model_dan.h5**: Dan 資料集的模訓練型.
-- **model_kyu.h5**: Kyu 資料集的模訓練型.
+- **model_dan.h5**: Dan: 資料集的模訓練型.
+- **model_kyu.h5**: Kyu: 資料集的模訓練型.
 - **model_Playstyle_image.h5**: Playstyle 資料集的模訓練型.
 - **private_submission_template.csv**: Public 與 Private 的資料集預測結果.
 
