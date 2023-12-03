@@ -18,7 +18,7 @@
 
 # 資料前處理 Dan、Kyu
 
-1.先將原始檔(`.csv`) 放進資料夾 (舉Dan為例)
+- * 1.先將原始檔(`.csv`) 放進資料夾 (舉Dan為例)
     - 訓練集:`CSVs\dan_train.csv`
     - public測試集:`CSVs\dan_test_public.csv`
     - private測試集`CSVs\dan_test_private.csv`
