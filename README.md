@@ -18,41 +18,41 @@
 
 # 資料前處理 Dan、Kyu
 
-- * 1.先將原始檔(`.csv`) 放進資料夾 (舉Dan為例)
+- 1.先將原始檔(`.csv`) 放進資料夾 (舉Dan為例)
     - 訓練集:`CSVs\dan_train.csv`
     - public測試集:`CSVs\dan_test_public.csv`
     - private測試集`CSVs\dan_test_private.csv`
-- * 2.分別使用以下程式碼來進行訓練 (舉Dan為例)
+- 2.分別使用以下程式碼來進行訓練 (舉Dan為例)
     - 訓練集:`Dan-train.ipynb`
     - public測試集:`建立Public.ipynb`
     - private測試集:`建立Private.ipynb`
 
 # 資料前處理 Playstyle
 
-1.先將原始檔(`.csv`) 放進資料夾
+- 1.先將原始檔(`.csv`) 放進資料夾
     - 訓練集:`CSVs\play_style_train.csv`
     - public測試集:`CSVs\play_style_test_public.csv`
     - private測試集`CSVs\play_style_test_private.csv`
-2.使用以下程式碼將原始檔(`.csv`) 轉換成(`.png`) 該檔案會對應`.csv` 內的資訊
+- 2.使用以下程式碼將原始檔(`.csv`) 轉換成(`.png`) 該檔案會對應`.csv` 內的資訊
     - 訓練集:`建立playstyle圖檔.ipynb` (第一個儲存格)
     - public測試集:`建立playstyle圖檔.ipynb` (第二個儲存格)
     - private測試集`建立playstyle圖檔.ipynb` (第三個儲存格)
-3.使用以下程式碼來進行訓練
+- 3.使用以下程式碼來進行訓練
     - 訓練集:`PlayStyle_IMAGE_train.ipynb`
     - public測試集:`建立Public.ipynb`
     - private測試集:`建立Private.ipynb`
 
 # 訓練方式 (舉Dan為例)
 
-1.開啟`Dan-train.ipynb`
-2.從第`1`個儲存格開始執行程式，至第`5`格為止
-3.在第`6`個儲存格開始建立模型
-4.在第`7`個儲存格建立學習率調度並設置model checkpoint 來存最高一筆的`val_accuracy`
-5.在第`8`個儲存格開始訓練模型
-6.在第`9`以及`10`儲存格查看訓練後的`loss` `val_loss` `accuracy` `val_accuracy` 曲線圖
+- 1.開啟`Dan-train.ipynb`
+- 2.從第`1`個儲存格開始執行程式，至第`5`格為止
+- 3.在第`6`個儲存格開始建立模型
+- 4.在第`7`個儲存格建立學習率調度並設置model checkpoint 來存最高一筆的`val_accuracy`
+- 5.在第`8`個儲存格開始訓練模型
+- 6.在第`9`以及`10`儲存格查看訓練後的`loss` `val_loss` `accuracy` `val_accuracy` 曲線圖
 
 # 測試方式 (舉Dan為例)
 
-1.開啟`建立Public.ipynb`或是`建立Private.ipynb`
-2.從第`1`個儲存格開始執行程式，至第`3`格為止
-3.在第`4`個儲存格引入model checkpoint 並寫入(`.csv`)的格式，並將驗證後的答案存入`private_submission_template.csv`
+- 1.開啟`建立Public.ipynb`或是`建立Private.ipynb`
+- 2.從第`1`個儲存格開始執行程式，至第`3`格為止
+- 3.在第`4`個儲存格引入model checkpoint 並寫入(`.csv`)的格式，並將驗證後的答案存入`private_submission_template.csv`
