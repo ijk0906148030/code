@@ -1,20 +1,18 @@
-# AIcupTutorial
-NDHU AI Lab - AICup Tutorial
+# 介紹環境
 
-# Introduction
-There are 3 AI models required to train in this contest, namely Dan, Kyu, and Play Style models. The baseline models are trained by using TensorFlow 2.9 and shared in this repository. 
+本次比賽環境使用 TensorFlow 2.9.1 進行模型訓練以及建立所需之訓練和測試集.
 
-# File Structure
-  - **CSVs**: Dataset folder for training and testing
-  - **Dan Training Tutorial.ipynb**: Baseline model training of Dan dataset
-  - **Kyu Training Tutorial.ipynb**: Baseline model training of Kyu dataset
-  - **PlayStyle Training Tutorial.ipynb**: Baseline model training of PlayStyle dataset
-  - **Create Public Upload CSV.ipynb**: Predictions by using the baseline models
-  - **model_dan_tutorial.h5**: Baseline model of Dan dataset
-  - **model_kyu_tutorial.h5**: Baseline model of Kyu dataset
-  - **model_playstyle_tutorial.h5**: Baseline model of PlayStyle dataset
-  - **public_submission_template**: Predictions for public testing datasets
+# 文件結構
 
-To generate the baseline models, you can follow tutorial notebooks.
+- **CSVs**: 用於訓練和測試的資料集資料夾.
+- **Dan-train.ipynb**: Dan 資料集的模型訓練.
+- **Kyu-train.ipynb**: Kyu 資料集的模型訓練.
+- **PlayStyle_IMAGE_train.ipynb**: Playstyle 資料集的模型訓練.
+- **建立playstyle圖檔.ipynb**: 將Playstyle訓練、測試資料轉換為自創圖像.
+- **建立Public.ipynb**: 使用模型進行預測.
+- **建立Private.ipynb**: 使用模型進行預測.
+- **model_dan_tutorial_22000.h5**: Dan 資料集的模訓練型.
+- **model_kyu_tutorial_35000.h5**: Kyu 資料集的模訓練型.
+- **model_Playstyle_image(標記倒數第二落子_訓練時翻轉及旋轉).h5**: Playstyle 資料集的模訓練型.
+- **private_submission_template.csv**: Public 與 Private 的資料集預測結果.
 
-For submission, you can follow **Create Public Upload CSV.ipynb** notebook.
