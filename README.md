@@ -22,7 +22,7 @@
     - 訓練集:`CSVs\dan_train.csv`
     - public測試集:`CSVs\dan_test_public.csv`
     - private測試集`CSVs\dan_test_private.csv`
-2.分別使用以下程式碼來進行訓練 (舉Dan為例)
+- * 2.分別使用以下程式碼來進行訓練 (舉Dan為例)
     - 訓練集:`Dan-train.ipynb`
     - public測試集:`建立Public.ipynb`
     - private測試集:`建立Private.ipynb`
